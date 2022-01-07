@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&display=swap');
+
+@font-face {
+    font-family: 'icomoon';
+    src: url("../assets/fonts/icomoon/icomoon.eot?1z9v6x");
+    src: url("../assets/fonts/icomoon/icomoon.eot?1z9v6x#iefix") format("embedded-opentype"), url("../assets/fonts/icomoon/icomoon.ttf?1z9v6x") format("truetype"), url("../assets/fonts/icomoon/icomoon.woff?1z9v6x") format("woff"), url("../assets/fonts/icomoon/icomoon.svg?1z9v6x#icomoon") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    overflow-x: hidden;
+    font-size: 1em;
+}
+
+body {
+    background: #ffffff;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.8;
+    color: rgba(0, 0, 0);
+    font-weight: 300;
+}
+
+.logo {
+    float: left;
+    color: #ffffff;
+    padding-left: 0px;
+    font-size: 30px;
+    display: block;
+    width: 70px;
+    font-weight: 100;
+    font-family: 'Inspiration', cursive;
+    text-decoration: none;
+    border: black solid 1px;
+    border-radius: 100%;
+}
+
+header .icon {
+    width: 1.8em;
+    filter: invert(70%);
+}
+
+header .icon:hover {
+    filter: invert(100%);
+}
+
+.home {
+    background-image: url('../assets/img/bg-1.jpg');
+    height: 100vh;
+}
+
+.home .row {
+    height: 100vh;
+}
+
+.about .icon {
+    filter: invert(70%);
+    width: 20%;
+}
+
+.btn {
+    background-color: #22eaaa;
+    color: #ffffff;
+    border: 0;
+}
+
+.btn:hover {
+    filter: brightness(95%);
+    color: white;
+}
+
+.card-header .title{
+    text-decoration: none;
+    color: black;
+}
+
+.card-header .title:hover {
+    opacity: 70%;
+}
+
+.music .btn {
+    width: 90%;
+}
+
+.gallery {
+    background-color: #22eaaa;
+    box-shadow: 0px 0px 15px rgba(34, 234, 170, 1);
+}
+
+.contact .form-control:focus {
+    border-color: rgba(34, 234, 170, 0.8);
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(34, 234, 170, 0.6);
+}
+
+footer {
+    color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+}
+
+footer span {
+    color: #22eaaa;
+}
+
+@media only screen and (max-width: 768px) {
+    header .icon {
+        justify-content: flex-start !important;
+    }
+
+    .profile {
+        display: none;
+    }
+}
